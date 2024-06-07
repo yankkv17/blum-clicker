@@ -34,5 +34,5 @@ The author of this tool is not responsible for any consequences related to its u
 This is the initial version of the clicker tool. Further updates and improvements may be made in the future.
 
 On average, this clicker tool is capable of catching between 140 and 180 falling stars in the game.
-
+UPD: As of now the minimum number of falling stars, catchable with the clicker has been increased to at least 180. The range now is between 180-210.
 
