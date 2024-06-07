@@ -21,6 +21,9 @@ The author of this tool is not responsible for any consequences related to its u
  * pip install -r requirements.txt
  * python clicker.py
 
+## 
+ * To get your width and height of tg window use: python get_window_coordinates.py
+
 ## Technologies Used
 - Python
 - PyAutoGUI
