@@ -9,6 +9,8 @@ star_templates = [
     ('template_1', cv2.imread('template_1.png', cv2.IMREAD_COLOR)),
     ('template_2', cv2.imread('template_2.png', cv2.IMREAD_COLOR)),
     ('template_3', cv2.imread('template_3.png', cv2.IMREAD_COLOR)),
+    ('template_4', cv2.imread('template_4.png', cv2.IMREAD_COLOR)),
+    ('template_5', cv2.imread('template_5.png', cv2.IMREAD_COLOR)),
 ]
 
 # Search area settings.
