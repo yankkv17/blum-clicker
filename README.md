@@ -21,9 +21,6 @@ The author of this tool is not responsible for any consequences related to its u
  * pip install -r requirements.txt
  * python clicker.py
 
-## 
- * To get your width and height of tg window use: python get_window_coordinates.py
-
 ## Technologies Used
 - Python
 - PyAutoGUI
@@ -33,6 +30,14 @@ The author of this tool is not responsible for any consequences related to its u
 ##
 This is the initial version of the clicker tool. Further updates and improvements may be made in the future.
 
-On average, this clicker tool is capable of catching between 140 and 180 falling stars in the game.
-UPD: As of now the minimum number of falling stars, catchable with the clicker has been increased to at least 180. The range now is between 180-210.
+## Updates
+- Thanks to `template_6`, the script automatically continues the game. If you do not want this, comment out the line `('template_6', cv2.imread('template_6.png', cv2.IMREAD_COLOR)),`.
+- The script consistently collects 200 stars.
+- Automatic window size detection has also been implemented.
+
+## Demonstration
+<div align="center">
+
+![YouCut_20240627_232949474(1)](https://github.com/yankkv17/blum-clicker/assets/166509664/1b0f19f4-1a1b-4d4f-9868-5181af693fee)
+<div align="center">
 
