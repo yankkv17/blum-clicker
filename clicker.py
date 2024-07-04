@@ -25,13 +25,21 @@ star_templates = [
     ('template_4', cv2.imread('template_4.png', cv2.IMREAD_COLOR)),
     ('template_5', cv2.imread('template_5.png', cv2.IMREAD_COLOR)),
     ('template_6', cv2.imread('template_6.png', cv2.IMREAD_COLOR)),
+    ('template_7', cv2.imread('template_7.png', cv2.IMREAD_COLOR)),
+    ('template_8', cv2.imread('template_8.png', cv2.IMREAD_COLOR)),
+    ('template_9', cv2.imread('template_9.png', cv2.IMREAD_COLOR)),
+    ('template_10', cv2.imread('template_10.png', cv2.IMREAD_COLOR)),
+    ('template_11', cv2.imread('template_11.png', cv2.IMREAD_COLOR)),
+    ('template_12', cv2.imread('template_12.png', cv2.IMREAD_COLOR)),
+    ('template_13', cv2.imread('template_13.png', cv2.IMREAD_COLOR)),
+    ('template_14', cv2.imread('template_14.png', cv2.IMREAD_COLOR)),
 ]
 
 # Initialize region variables
 region_left, region_top, region_width, region_height = get_window("TelegramDesktop")
 
 # Make a screenshot of a specified region.
-def grab_screen(scale_factor=0.5):
+def grab_screen(scale_factor=0.6):
     screenshot = pyautogui.screenshot(region=(region_left, region_top, region_width, region_height))
     screenshot = np.array(screenshot)
     screenshot = cv2.cvtColor(screenshot, cv2.COLOR_RGB2BGR)
@@ -41,7 +49,7 @@ def grab_screen(scale_factor=0.5):
     return resized_screenshot
 
 # Find a template on the screen.
-def find_template_on_screen(template, screenshot, step=0.7, scale_factor=0.5):
+def find_template_on_screen(template, screenshot, step=0.6, scale_factor=0.6):
     new_width = int(template.shape[1] * scale_factor)
     new_height = int(template.shape[0] * scale_factor)
     resized_template = cv2.resize(template, (new_width, new_height))
@@ -69,7 +77,7 @@ def process_template(template_data, screenshot, scale_factor):
 
 def main():
     star_count = 0
-    scale_factor = 0.5
+    scale_factor = 0.6
     try:
         while True:
             start_time = time.time()
