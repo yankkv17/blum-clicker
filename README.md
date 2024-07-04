@@ -1,5 +1,9 @@
 # Automatic Clicker for Telegram Bot
 
+# Info
+
+Due to the game update, the code has been revised. This is a temporary solution. Currently, bombs are adding points instead of deducting them. The code will be improved. It is consistently possible to score 200+ points now.
+
 ## Description
 This project is an automatic clicker for the Blum.
 
