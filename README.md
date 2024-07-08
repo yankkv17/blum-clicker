@@ -2,9 +2,7 @@
 
 # Info
 
-Due to the game update, the code has been revised. This is a temporary solution. Currently, bombs are adding points instead of deducting them. The code will be improved. It is consistently possible to score 200+ points now.
-
-As soon as my power outages decrease, the code will be properly updated.
+The update (collaboration) has ended, and the previous version of the game has returned. Accordingly, the code and templates have been updated. The code works stably and well.
 
 ## Description
 This project is an automatic clicker for the Blum.
